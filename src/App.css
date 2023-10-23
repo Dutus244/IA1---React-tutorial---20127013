@@ -1,0 +1,12 @@
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border: 1px solid #999;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+  .board-row{
+    display: flex;
+  }

@@ -111,8 +111,8 @@ export default function App() {
       description = `You are at move #${move}`;
     } else if (move > 0) {
       const pos = findPos(history[move], history[move-1])
-      const row = Math.floor(pos / 3);
-    const col = pos % 3;
+      const row = Math.floor(pos / 3) + 1;
+    const col = pos % 3 + 1;
     description = `Go to move #${move} (${row}, ${col})`;
     } else {
       description = 'Go to game start';
